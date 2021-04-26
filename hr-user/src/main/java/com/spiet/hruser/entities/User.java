@@ -1,7 +1,6 @@
 package com.spiet.hruser.entities;
 
 
-import com.spiet.hruser.Role;
 import lombok.*;
 
 import javax.persistence.*;
@@ -26,6 +25,7 @@ public class User implements Serializable {
 
     private String name;
 
+    @Column(unique = true)
     private String email;
 
     private String password;

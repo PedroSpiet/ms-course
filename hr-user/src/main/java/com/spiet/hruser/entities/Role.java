@@ -1,4 +1,4 @@
-package com.spiet.hruser;
+package com.spiet.hruser.entities;
 
 import lombok.*;
 
